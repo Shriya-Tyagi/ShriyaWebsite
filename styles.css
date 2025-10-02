@@ -39,7 +39,7 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--fg);
-  font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  font: 16px/1.6 Helvetica Neue, "Apple Color Emoji","Segoe UI Emoji";
   text-rendering: optimizeLegibility;
 }
 
