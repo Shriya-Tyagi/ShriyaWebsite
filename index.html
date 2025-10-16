@@ -1,175 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-icon.png">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shriya Tyagi <span class="goose">🪿 honk.</span></title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="goose.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goose Projects</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Shriya Tyagi</h1>
-    <nav>
+  <header class="site-header">
+    <div class="emoji" style="font-size: 3rem">🪿</div>
+    <h1 class="name">Shriya Tyagi</h1>
+    <p class="tagline">The most honkable collection of stuff ever made.</p>
+  </header>
+
+  <nav>
+    <ul class="nav">
+      <li><a href="#contents">Contents</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="contents">
+      <h2>Contents</h2>
       <ul>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#education">Education</a></li>
       </ul>
-    </nav>
-  </header>
-
-  
-  <main id="content" class="container" role="main">
-
-
-    <section id="education">
-      <h2>Education</h2>
-      <article class="item">
-        <header>
-          <h3>University of Waterloo</h3>
-          <div class="meta">
-            <span>B.A.Sc. Electrical Engineering (Honours), Candidate</span>
-            <span>Sept 2025 – Aug 2030</span>
-          </div>
-        </header>
-        <p>Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra.</p>
-      </article>
-    </section>     
-<section id="projects">
-  <h2>Projects</h2>
-
-  <article class="item">
-    <header>
-      <h3>Timetable Generator</h3>
-      <div class="meta">
-        <span>Python, OR-Tools, Datetime</span>
-        <span>Aug 2025 – Sept 2025</span>
-      </div>
-    </header>
-    <ul class="bullets">
-      <li>Scalable school timetable generator using CP-SAT to optimize hard and soft constraints.</li>
-      <li>Constraint formulations for clashes, room availability, and instructor schedules.</li>
-      <li>Ensures fairness, balanced workloads, and compliance with institutional rules.</li>
-    </ul>
-  </article>
-
-  <article class="item">
-    <header>
-      <h3>Plagiarism Detector</h3>
-      <div class="meta">
-        <span>Python, Scikit-learn, NLTK, Requests, BeautifulSoup</span>
-        <span>Aug 2025 – Sept 2025</span>
-      </div>
-    </header>
-    <ul class="bullets">
-      <li>Developed a text similarity system using TF-IDF vectorization and cosine similarity to detect plagiarism in academic and technical documents.</li>
-      <li>Implemented preprocessing pipelines with NLTK for tokenization, stopword removal, and keyword extraction.</li>
-      <li>Optimized workflows for scalable analysis of complex text datasets, improving detection accuracy and efficiency.</li>
-    </ul>
-  </article>
-
-  <article class="item">
-    <header>
-      <h3>Mini Racing Car (Design Team Event)</h3>
-      <div class="meta">
-        <span>Arduino, ESP8266, DRV8833</span>
-        <span>Sept 2025</span>
-      </div>
-    </header>
-    <ul class="bullets">
-      <li>Miniature car with ESP8266 and DRV8833 for wireless dual-motor control.</li>
-      <li>Developed C++ firmware enabling Wi-Fi remote control.</li>
-      <li>Rapid prototyping, soldering, and iterative testing under tight timelines.</li>
-    </ul>
-  </article>
-
-  <article class="item">
-    <header>
-      <h3>Physics Project — Analysis of Photodiodes</h3>
-      <div class="meta">
-        <span>Semiconductor behavior research</span>
-        <span>Sept 2024 – Feb 2025</span>
-      </div>
-    </header>
-    <ul class="bullets">
-      <li>Built test circuit and analyzed efficiency, response time, and wavelength sensitivity.</li>
-      <li>Examined dark current, junction capacitance, and noise effects on signal integrity.</li>
-    </ul>
-  </article>
-</section>
-  
-    <section id="experience">
-      <h2>Experience</h2>
-
-      <article class="item">
-        <header>
-          <h3>Journalist / Recruitment Coordinator</h3>
-          <div class="meta">
-            <span>ThatBenzeneRing, DOTx</span>
-            <span>Delhi, IN | May 2023 – May 2024</span>
-          </div>
-        </header>
-        <ul class="bullets">
-          <li>Produced and improved editorial content for a startup news platform.</li>
-          <li>Led recruitment and streamlined Excel-based candidate databases.</li>
-        </ul>
-      </article>
-
-      <article class="item">
-        <header>
-          <h3>Donation and Afforestation Drives</h3>
-          <div class="meta">
-            <span>Sector 122, RWA</span>
-            <span>Noida, IN | 2022 – 2024</span>
-          </div>
-        </header>
-        <ul class="bullets">
-          <li>Led donation and tree plantation drives with local RWA.</li>
-          <li>Managed logistics to maximize outreach while minimizing waste.</li>
-        </ul>
-      </article>
-
-      <article class="item">
-        <header>
-          <h3>Organizer, Science Workshop</h3>
-          <div class="meta">
-            <span>Delhi Public School, Noida</span>
-            <span>Jun 2023 – Dec 2023</span>
-          </div>
-        </header>
-        <ul class="bullets">
-          <li>Organized a large-scale biology workshop engaging ~4,000 middle school students.</li>
-          <li>Coordinated with educators and delivered interactive, curriculum-aligned content.</li>
-        </ul>
-      </article>
     </section>
 
+    <section id="projects">
+      <h2> Projects</h2>
+      <ul class="bullets">
+        <li><a href="projects/timetable.html">Timetable Generator</a> – Python, OR-Tools, Datetime (Aug–Sept 2025)</li>
+        <li><a href="projects/plagiarism.html">Plagiarism Detector</a> – Python, Scikit-learn, NLTK, Requests, BeautifulSoup (Aug–Sept 2025)</li>
+        <li><a href="projects/racingcar.html">Mini Racing Car</a> – Arduino, ESP8266, DRV8833 (Sept 2025)</li>
+        <li><a href="projects/photodiode.html">Physics Project – Photodiode Analysis</a> – Semiconductor physics (Sept 2024 – Feb 2025)</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2> Experience</h2>
+      <div class="item">
+        <h3>Journalist / Recruitment Coordinator</h3>
+        <div class="meta">ThatBenzeneRing, DOTx – Delhi, IN | May 2023 – May 2024</div>
+        <ul class="bullets">
+          <li>Wrote and improved editorial content for a startup news platform.</li>
+          <li>Managed Excel-based candidate tracking during recruitment.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Donation and Afforestation Drives</h3>
+        <div class="meta">Sector 122 RWA – Noida, IN | 2022 – 2024</div>
+        <ul class="bullets">
+          <li>Organized and led community tree plantations and donation logistics.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Organizer, Science Workshop</h3>
+        <div class="meta">Delhi Public School, Noida | Jun – Dec 2023</div>
+        <ul class="bullets">
+          <li>Delivered a large-scale biology workshop engaging over 4,000 students.</li>
+          <li>Worked with educators to create interactive, curriculum-aligned material.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2> Education</h2>
+      <div class="item">
+        <h3>University of Waterloo</h3>
+        <div class="meta">B.A.Sc. Electrical Engineering (Honours), Candidate | Sept 2025 – Aug 2030</div>
+        <p>Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra.</p>
+      </div>
+    </section>
   </main>
 
-
-    <footer class="site-footer">
-      <p>&copy; <span id="year"></span> 2025 Shriya Tyagi honk.</span></p>
-    </footer>
-  </main>
-
-
-  <!-- Optional Easter Egg -->
-  <audio id="honk-sound" src="honk.mp3"></audio>
-  <script>
-    document.querySelectorAll('.goose').forEach(el => {
-      el.addEventListener('click', () => {
-        document.getElementById('honk-sound').play();
-      });
-    });
-  </script>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <footer class="site-footer">
+    <p>&copy; 2025 Shriya Tyagi 🪿 honk.</p>
+  </footer>
 </body>
 </html>
