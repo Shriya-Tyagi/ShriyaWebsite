@@ -1,205 +1,53 @@
-
-:root {
-  --bg: #0a0a0a;
-  --fg: #f2f2f2;
-  --muted: #b6b6b6;
-  --card: #141414;
-  --accent: #7dd3fc;
-  --border: #2a2a2a;
-  --maxw: 960px;
-  --radius: 12px;
-  --shadow: 0 1px 0 rgba(255,255,255,0.03) inset, 0 10px 30px rgba(0,0,0,0.25);
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  padding: 5%;
+  margin: auto;
+  color: #202020;
+  background-color: #fff;
+  line-height: 1.6;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #ffffff;
-    --fg: #111111;
-    --muted: #4b4b4b;
-    --card: #f7f7f7;
-    --border: #e6e6e6;
-  }
+a {
+  color: #202020;
+  text-decoration: none;
 }
 
-header {
-  padding: 1.5rem;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+a:hover {
+  color: dodgerblue;
+  text-decoration: none;
 }
 
 h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-
-* { box-sizing: border-box; }
-html, body {
-  margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--fg);
-  font: 16px/1.6 Helvetica Neue, "Apple Color Emoji","Segoe UI Emoji";
-  text-rendering: optimizeLegibility;
-}
-
-.container {
-  width: 100%;
-  max-width: var(--maxw);
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.skip-link {
-  position: absolute;
-  left: -9999px;
-}
-.skip-link:focus {
-  left: 16px;
-  top: 8px;
-  background: var(--card);
-  color: var(--fg);
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.site-header {
-  padding: 48px 0 24px;
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(8px);
-  background: color-mix(in oklab, var(--bg) 85%, transparent);
-  z-index: 10;
-}
-.name {
-  margin: 0;
-  font-size: clamp(28px, 4vw, 40px);
-  letter-spacing: 0.3px;
-}
-.tagline {
-  margin: 4px 0 12px;
-  color: var(--muted);
-}
-.contact {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 12px;
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-.contact a {
-  color: var(--fg);
-  text-decoration: none;
-  border-bottom: 1px dashed var(--border);
-}
-.contact a:hover { border-bottom-color: var(--fg); }
-
-.nav {
-  list-style: none;
-  padding: 0;
-  margin: 12px 0 0;
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.nav a {
-  color: var(--muted);
-  text-decoration: none;
-  padding: 6px 10px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-}
-.nav a:hover { color: var(--fg); border-color: var(--fg); }
-
-h2 {
-  margin-top: 40px;
-  font-size: clamp(22px, 3vw, 28px);
-  letter-spacing: 0.2px;
-}
-h3 { margin: 0 0 6px; font-size: 18px; }
-
-.about p { margin: 8px 0 0; }
-
-.cards .card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-  box-shadow: var(--shadow);
-}
-
-.item {
-  padding: 16px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--card);
-  margin: 14px 0;
-  box-shadow: var(--shadow);
-}
-.meta {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  color: var(--muted);
-  font-size: 14px;
-}
-.bullets {
-  margin: 10px 0 0 18px;
-}
-
-.site-footer {
   text-align: center;
-  color: var(--muted);
-  padding: 36px 0 60px;
-  border-top: 1px solid var(--border);
-  margin-top: 40px;
+  margin-top: 2.5em;
 }
 
-a { color: var(--accent); }
-a:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-@media print {
-  .site-header, .nav, .site-footer, .skip-link { display: none; }
-  body { background: #fff; color: #000; }
-  .card, .item { box-shadow: none; border-color: #bbb; }
+li {
+  margin: 0.3em 0;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+code {
+  background-color: whitesmoke;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #333;
-  position: relative;
+img, video, iframe {
+  max-width: 100%;
+  max-height: 80vh;
+  vertical-align: top;
 }
 
-nav a::after {
-  content: "🪿";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) scale(0);
-  bottom: -1.2rem;
-  font-size: 1rem;
-  transition: transform 0.2s ease;
+.goose {
+  cursor: pointer;
 }
 
-nav a:hover::after {
-  transform: translateX(-50%) scale(1);
+small {
+  color: #555;
 }
-
