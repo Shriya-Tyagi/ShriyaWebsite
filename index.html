@@ -1,79 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shriya Tyagi</title>
-  <link rel="icon" href="goose.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-icon.png">
-  <link rel="stylesheet" href="styles.css">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shriya Tyagi </title>
+  <title>Shriya Tyagi <span class="goose">🪿 honk.</span></title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="goose.png">
 </head>
 <body>
-  <header>
-    <strong>Shriya Tyagi </strong>
-  </header>
+<header>
+<h1>Shriya Tyagi</h1>
+<nav>
+<ul>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+</ul>
+</nav>
+</header>
 
-  <main id="content">
-    <section>
-      <h1>Projects</h1>
-      <ul>
-        <li><small><code>2025-09-20</code></small> <a href="timetable-generator.html">Timetable Generator</a></li>
-        <li><small><code>2025-09-10</code></small> <a href="plagiarism-detector.html">Plagiarism Detector</a></li>
-        <li><small><code>2025-09-05</code></small> <a href="mini-racing-car.html">Mini Racing Car (Design Team Event)</a></li>
-        <li><small><code>2025-02-15</code></small> <a href="photodiodes.html">Physics Project — Analysis of Photodiodes</a></li>
-      </ul>
-    </section>
 
-    <section>
-      <h1>Experience</h1>
-      <ul>
-        <li><small><code>2023-05-01</code></small> Journalist / Recruitment Coordinator – ThatBenzeneRing, DOTx</li>
-        <li><small><code>2022-01-01</code></small> Donation & Afforestation Drives – Sector 122 RWA</li>
-        <li><small><code>2023-06-01</code></small> Organizer, Science Workshop – Delhi Public School Noida</li>
-      </ul>
-    </section>
+<main id="content" class="container" role="main">
 
-    <section>
-      <h1>Education</h1>
-      <ul>
-        <li><small><code>2025-09-01</code></small> B.A.Sc. Electrical Engineering (Honours), University of Waterloo</li>
-        <li><small><code>Relevant coursework:</code></small> Fundamentals of Programming (C++), Calculus, Linear Algebra</li>
-      </ul>
-    </section>
-  </main>
 
-  <footer>
-    <div class="links">
-      git(<a href="https://github.com/ShriyaTyagi">hub</a>) /
-      <a href="mailto:shriyatyagi@example.com">mail</a>
-    </div>
+<section id="education">
+<h2>Education</h2>
+<article class="item">
+<header>
+<h3>University of Waterloo</h3>
+<div class="meta">
+<span>B.A.Sc. Electrical Engineering (Honours), Candidate</span>
+<span>Sept 2025 – Aug 2030</span>
+</div>
+</header>
+<p>Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra.</p>
+</article>
+</section>     
+<section id="projects">
+<h2>Projects</h2>
 
-    <div class="validators">
-      <a href="https://validator.w3.org/nu/">w3c xhtml✓</a> 
-      <a href="https://jigsaw.w3.org/css-validator/">w3c css✓</a>
-    </div>
+<article class="item">
+<header>
+<h3><a href="https://shriya.uwce.ca/timetable.html">Timetable Generator</a></h3>
+<div class="meta">
+<span>Python, OR-Tools, Datetime</span>
+<span>Aug 2025 – Sept 2025</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Scalable school timetable generator using CP-SAT to optimize hard and soft constraints.</li>
+<li>Constraint formulations for clashes, room availability, and instructor schedules.</li>
+<li>Ensures fairness, balanced workloads, and compliance with institutional rules.</li>
+</ul>
+</article>
 
-    <p>© 2025 Shriya Tyagi <span class="goose">🪿 honk.</span></p>
-  </footer>
+<article class="item">
+<header>
+<h3><a href="https://shriya.uwce.ca/plagiarism.html"> Plagiarism Detector</h3>
+<div class="meta">
+<span>Python, Scikit-learn, NLTK, Requests, BeautifulSoup</span>
+<span>Aug 2025 – Sept 2025</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Developed a text similarity system using TF-IDF vectorization and cosine similarity to detect plagiarism in academic and technical documents.</li>
+<li>Implemented preprocessing pipelines with NLTK for tokenization, stopword removal, and keyword extraction.</li>
+<li>Optimized workflows for scalable analysis of complex text datasets, improving detection accuracy and efficiency.</li>
+</ul>
+</article>
 
-  <audio id="honk-sound" src="honk.mp3"></audio>
+<article class="item">
+<header>
+<h3><a href="https://shriya.uwce.ca/racingcar.html"> Mini Racing Car (Design Team Event)</h3>
+<div class="meta">
+<span>Arduino, ESP8266, DRV8833</span>
+<span>Sept 2025</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Miniature car with ESP8266 and DRV8833 for wireless dual-motor control.</li>
+<li>Developed C++ firmware enabling Wi-Fi remote control.</li>
+<li>Rapid prototyping, soldering, and iterative testing under tight timelines.</li>
+</ul>
+</article>
 
-  <script>
-    // Goose click = honk
-    document.querySelectorAll('.goose').forEach(el =>
-      el.addEventListener('click', () =>
-        document.getElementById('honk-sound').play()
-      )
-    );
+<article class="item">
+<header>
+<h3><a href="https://shriya.uwce.ca/photodiode.html> Physics Project — Analysis of Photodiodes</h3>
+<div class="meta">
+<span>Semiconductor behavior research</span>
+<span>Sept 2024 – Feb 2025</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Built test circuit and analyzed efficiency, response time, and wavelength sensitivity.</li>
+<li>Examined dark current, junction capacitance, and noise effects on signal integrity.</li>
+</ul>
+</article>
+</section>
 
-    // Dynamic greeting emoji
-    const today = new Date(), m = today.getMonth(), d = today.getDate();
-    document.getElementById('greet').textContent =
-      m==1&&d==7?"e":m==1&&d==13?"📻":m==2&&d==14?"π":
-      m==3&&d==25?"🍰":m==3&&d==26?"👽":
-      (m==5||m==11)&&d==21?"🔥❄️":m==8&&d==26?"🤖":
-      m==9&&d==23?"mol":m==9&&d==25?"🎃":
-      m==11&&d==25?"🎄":"¯\\_(ツ)_/¯";
-  </script>
+<section id="experience">
+<h2>Experience</h2>
+
+<article class="item">
+<header>
+<h3>Journalist / Recruitment Coordinator</h3>
+<div class="meta">
+<span>ThatBenzeneRing, DOTx</span>
+<span>Delhi, IN | May 2023 – May 2024</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Produced and improved editorial content for a startup news platform.</li>
+<li>Led recruitment and streamlined Excel-based candidate databases.</li>
+</ul>
+</article>
+
+<article class="item">
+<header>
+<h3>Donation and Afforestation Drives</h3>
+<div class="meta">
+<span>Sector 122, RWA</span>
+<span>Noida, IN | 2022 – 2024</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Led donation and tree plantation drives with local RWA.</li>
+<li>Managed logistics to maximize outreach while minimizing waste.</li>
+</ul>
+</article>
+
+<article class="item">
+<header>
+<h3>Organizer, Science Workshop</h3>
+<div class="meta">
+<span>Delhi Public School, Noida</span>
+<span>Jun 2023 – Dec 2023</span>
+</div>
+</header>
+<ul class="bullets">
+<li>Organized a large-scale biology workshop engaging ~4,000 middle school students.</li>
+<li>Coordinated with educators and delivered interactive, curriculum-aligned content.</li>
+</ul>
+</article>
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+<p>&copy; <span id="year"></span> 2025 Shriya Tyagi <span class="goose">🪿 honk.</span></p>
+</footer>
+</main>
+
+
+<!-- Optional Easter Egg -->
+<audio id="honk-sound" src="honk.mp3"></audio>
+<script>
+document.querySelectorAll('.goose').forEach(el => {
+el.addEventListener('click', () => {
+document.getElementById('honk-sound').play();
+});
+});
+</script>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
