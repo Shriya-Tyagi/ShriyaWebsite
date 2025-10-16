@@ -9,52 +9,64 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <strong>Shriya Tyagi 🪿</strong>
+  <header>
+    <strong>Shriya Tyagi </strong>
+  </header>
 
-  <br><br>
-  <div id="content">
-    <h1>Projects</h1>
-    <ul>
-      <li><small><code>2025-09-20</code></small> <a href="timetable-generator.html">Timetable Generator</a></li>
-      <li><small><code>2025-09-10</code></small> <a href="plagiarism-detector.html">Plagiarism Detector</a></li>
-      <li><small><code>2025-09-05</code></small> <a href="mini-racing-car.html">Mini Racing Car (Design Team Event)</a></li>
-      <li><small><code>2025-02-15</code></small> <a href="photodiodes.html">Physics Project — Analysis of Photodiodes</a></li>
-    </ul>
+  <main id="content">
+    <section>
+      <h1>Projects</h1>
+      <ul>
+        <li><small><code>2025-09-20</code></small> <a href="timetable-generator.html">Timetable Generator</a></li>
+        <li><small><code>2025-09-10</code></small> <a href="plagiarism-detector.html">Plagiarism Detector</a></li>
+        <li><small><code>2025-09-05</code></small> <a href="mini-racing-car.html">Mini Racing Car (Design Team Event)</a></li>
+        <li><small><code>2025-02-15</code></small> <a href="photodiodes.html">Physics Project — Analysis of Photodiodes</a></li>
+      </ul>
+    </section>
 
-    <h1>Experience</h1>
-    <ul>
-      <li><small><code>2023-05-01</code></small> Journalist / Recruitment Coordinator – ThatBenzeneRing, DOTx</li>
-      <li><small><code>2022-01-01</code></small> Donation & Afforestation Drives – Sector 122 RWA</li>
-      <li><small><code>2023-06-01</code></small> Organizer, Science Workshop – Delhi Public School Noida</li>
-    </ul>
+    <section>
+      <h1>Experience</h1>
+      <ul>
+        <li><small><code>2023-05-01</code></small> Journalist / Recruitment Coordinator – ThatBenzeneRing, DOTx</li>
+        <li><small><code>2022-01-01</code></small> Donation & Afforestation Drives – Sector 122 RWA</li>
+        <li><small><code>2023-06-01</code></small> Organizer, Science Workshop – Delhi Public School Noida</li>
+      </ul>
+    </section>
 
-    <h1>Education</h1>
-    <ul>
-      <li><small><code>2025-09-01</code></small> B.A.Sc. Electrical Engineering (Honours), University of Waterloo</li>
-      <li><small><code>Relevant courses:</code></small> Fundamentals of Programming (C++), Calculus, Linear Algebra</li>
-    </ul>
-  </div>
+    <section>
+      <h1>Education</h1>
+      <ul>
+        <li><small><code>2025-09-01</code></small> B.A.Sc. Electrical Engineering (Honours), University of Waterloo</li>
+        <li><small><code>Relevant coursework:</code></small> Fundamentals of Programming (C++), Calculus, Linear Algebra</li>
+      </ul>
+    </section>
+  </main>
 
-  <br>
-  git(<a href="https://github.com/ShriyaTyagi">hub</a>) /
-  <a href="mailto:shriyatyagi@example.com">mail</a>
-  <br>
-  <a href="https://validator.w3.org/nu/">w3c xhtml✓</a> 
-  <a href="https://jigsaw.w3.org/css-validator/">w3c css✓</a>
-  <br><br>
-  © 2025 Shriya Tyagi <span class="goose">🪿 honk.</span>
+  <footer>
+    <div class="links">
+      git(<a href="https://github.com/ShriyaTyagi">hub</a>) /
+      <a href="mailto:shriyatyagi@example.com">mail</a>
+    </div>
+
+    <div class="validators">
+      <a href="https://validator.w3.org/nu/">w3c xhtml✓</a> 
+      <a href="https://jigsaw.w3.org/css-validator/">w3c css✓</a>
+    </div>
+
+    <p>© 2025 Shriya Tyagi <span class="goose">🪿 honk.</span></p>
+  </footer>
 
   <audio id="honk-sound" src="honk.mp3"></audio>
 
   <script>
-    // honk easter egg
+    // Goose click = honk
     document.querySelectorAll('.goose').forEach(el =>
       el.addEventListener('click', () =>
         document.getElementById('honk-sound').play()
       )
     );
 
-    // dynamic greeting
+    // Dynamic greeting emoji
     const today = new Date(), m = today.getMonth(), d = today.getDate();
     document.getElementById('greet').textContent =
       m==1&&d==7?"e":m==1&&d==13?"📻":m==2&&d==14?"π":
