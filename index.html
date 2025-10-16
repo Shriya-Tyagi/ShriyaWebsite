@@ -6,37 +6,74 @@
   <title>Goose Projects</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
+    :root {
+      --maxw: 960px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
     body {
       display: flex;
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
     }
+
     main.container {
       width: 100%;
       max-width: var(--maxw);
       padding: 0 20px;
     }
+
+    header.site-header,
+    nav,
+    section,
+    footer.site-footer {
+      width: 100%;
+      max-width: var(--maxw);
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    nav ul.nav {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav ul.nav li {
+      display: inline;
+    }
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="emoji" style="font-size: 3rem">🪿</div>
-    <h1 class="name">Shriya Tyagi</h1>
-    <p class="tagline">The most honkable collection of stuff ever made.</p>
-  </header>
+  <main class="container">
+    <header class="site-header">
+      <div class="emoji" style="font-size: 3rem">🪿</div>
+      <h1 class="name">Shriya Tyagi</h1>
+      <p class="tagline">The most honkable collection of stuff ever made.</p>
+    </header>
 
-  <nav>
-    <ul class="nav">
-      <li><a href="#contents">Contents</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul class="nav">
+        <li><a href="#contents">Contents</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
 
     <section id="projects">
-      <h2> Projects</h2>
+      <h2>Projects</h2>
       <ul class="bullets">
         <li><a href="projects/timetable.html">Timetable Generator</a> – Python, OR-Tools, Datetime (Aug–Sept 2025)</li>
         <li><a href="projects/plagiarism.html">Plagiarism Detector</a> – Python, Scikit-learn, NLTK, Requests, BeautifulSoup (Aug–Sept 2025)</li>
@@ -46,7 +83,7 @@
     </section>
 
     <section id="experience">
-      <h2> Experience</h2>
+      <h2>Experience</h2>
       <div class="item">
         <h3>Journalist / Recruitment Coordinator</h3>
         <div class="meta">ThatBenzeneRing, DOTx – Delhi, IN | May 2023 – May 2024</div>
@@ -73,17 +110,17 @@
     </section>
 
     <section id="education">
-      <h2> Education</h2>
+      <h2>Education</h2>
       <div class="item">
         <h3>University of Waterloo</h3>
         <div class="meta">B.A.Sc. Electrical Engineering (Honours), Candidate | Sept 2025 – Aug 2030</div>
         <p>Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra.</p>
       </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <p>&copy; 2025 Shriya Tyagi 🪿 honk.</p>
-  </footer>
+    <footer class="site-footer">
+      <p>&copy; 2025 Shriya Tyagi 🪿 honk.</p>
+    </footer>
+  </main>
 </body>
 </html>
