@@ -2,7 +2,9 @@ Hi, I'm Shriya Tyagi, an Electrical Engineering undergraduate at the University 
 
 # Education
 ## University of Waterloo
-**B.A.Sc. Electrical Engineering (Honours), Candidate** _Sept 2025 — Aug 2030_
+**B.A.Sc. Electrical Engineering (Honours), Candidate**
+
+_Sept 2025 — Aug 2030_
 
 # Projects
 
