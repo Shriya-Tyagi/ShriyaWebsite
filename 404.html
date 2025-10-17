@@ -60,7 +60,7 @@
             document.querySelector('main').innerHTML = marked.parse(
                 await(await fetch(
                     `/${
-                        document.title = window.location.href.replace(window.location.origin, '') || 'index'
+                        document.title = window.location.pathname.slice(1) || 'index'
                     }.md`
                 )).text()
             );
