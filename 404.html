@@ -9,42 +9,19 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <style>
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            max-width: 800px;
-            padding: 5%;
+            color: #333;
+            background: #f8f8fa;
+            max-width: 600px;
+            padding: 1em 1ch;
             margin: auto;
-            color: #202020;
-            background-color: #fff;
-            line-height: 1.6;
         }
-        a {
-            color: #202020;
-            text-decoration: none;
-        }
-        a:hover {
-            color: dodgerblue;
-            text-decoration: none;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 2.5em;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li {
-            margin: 0.3em 0;
-        }
-        code {
-            background-color: whitesmoke;
-            padding: 0.1em 0.3em;
-            border-radius: 4px;
-        }
-        img, video, iframe {
-            max-width: 100%;
-            max-height: 80vh;
-            vertical-align: top;
+        a { color: #7a59c1; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        code { background-color: whitesmoke; }
+        img, video { max-width: 100%; }
+        @media (prefers-color-scheme: light) {
+            body { color: #e0e0e8; background-color: #131320; }
+            a { color: #b39ddb; }
         }
     </style>
 </head>
