@@ -14,7 +14,7 @@ Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra
 
 ## 💡 Projects
 
-### [Timetable Generator](https://shriya.uwce.ca/timetable.html)  
+### [Timetable Generator](/timetable-generator)  
 **Technologies:** Python, OR-Tools, Datetime  
 **Date:** Aug 2025 – Sept 2025  
 
@@ -22,7 +22,7 @@ Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra
 - Constraint formulations for clashes, room availability, and instructor schedules.  
 - Ensures fairness, balanced workloads, and compliance with institutional rules.
 
-### [Plagiarism Detector](https://shriya.uwce.ca/plagiarism.html)  
+### [Plagiarism Detector](/plagiarism-detector)  
 **Technologies:** Python, Scikit-learn, NLTK, Requests, BeautifulSoup  
 **Date:** Aug 2025 – Sept 2025  
 
@@ -30,7 +30,7 @@ Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra
 - Implemented preprocessing pipelines with NLTK for tokenization, stopword removal, and keyword extraction.  
 - Optimized workflows for scalable analysis of complex text datasets, improving detection accuracy and efficiency.
 
-### [Mini Racing Car (Design Team Event)](https://shriya.uwce.ca/racingcar.html)  
+### [Mini Racing Car (Design Team Event)](/racing-car)  
 **Technologies:** Arduino, ESP8266, DRV8833  
 **Date:** Sept 2025  
 
@@ -38,7 +38,7 @@ Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra
 - Developed C++ firmware enabling Wi-Fi remote control.  
 - Rapid prototyping, soldering, and iterative testing under tight timelines.
 
-### [Physics Project — Analysis of Photodiodes](https://shriya.uwce.ca/photodiode.html)  
+### [Physics Project — Analysis of Photodiodes](/photodiode-research)  
 **Focus:** Semiconductor behavior research  
 **Date:** Sept 2024 – Feb 2025  
 
@@ -51,21 +51,21 @@ Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra
 
 ### Journalist / Recruitment Coordinator  
 **ThatBenzeneRing, DOTx**  
-*Delhi, IN | May 2023 – May 2024*  
+_Delhi, IN | May 2023 – May 2024_
 
 - Produced and improved editorial content for a startup news platform.  
 - Led recruitment and streamlined Excel-based candidate databases.
 
 ### Donation and Afforestation Drives  
 **Sector 122, RWA**  
-*Noida, IN | 2022 – 2024*  
+_Noida, IN | 2022 – 2024_
 
 - Led donation and tree plantation drives with local RWA.  
 - Managed logistics to maximize outreach while minimizing waste.
 
 ### Organizer, Science Workshop  
 **Delhi Public School, Noida**  
-*Jun 2023 – Dec 2023*  
+_Jun 2023 – Dec 2023_
 
 - Organized a large-scale biology workshop engaging ~4,000 middle school students.  
 - Coordinated with educators and delivered interactive, curriculum-aligned content.
