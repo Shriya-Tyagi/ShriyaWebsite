@@ -1,16 +1,11 @@
-# Index
+Hi, I'm Shriya Tyagi, an Electrical Engineering undergraduate at the University of Waterloo. This is my portfolio website.
 
----
-
-## 🎓 Education
+## Education
 
 ### University of Waterloo  
-**B.A.Sc. Electrical Engineering (Honours), Candidate**  
-_Sept 2025 – Aug 2030_
+**B.A.Sc. Electrical Engineering (Honours), Candidate** _Sept 2025 – Aug 2030_
 
 Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra.
-
----
 
 ## 💡 Projects
 
@@ -44,8 +39,6 @@ Relevant coursework: Fundamentals of Programming (C++), Calculus, Linear Algebra
 
 - Built test circuit and analyzed efficiency, response time, and wavelength sensitivity.  
 - Examined dark current, junction capacitance, and noise effects on signal integrity.
-
----
 
 ## 💼 Experience
 
