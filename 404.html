@@ -59,7 +59,7 @@
         (async() => {
             document.querySelector('main').innerHTML = marked.parse(
                 await(await fetch(
-                    `/${
+                    `/pages/${
                         document.title = window.location.pathname.slice(1) || 'index'
                     }.md`
                 )).text()
