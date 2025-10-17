@@ -1,5 +1,9 @@
 # 🔬 Photodiode Analysis
 
+![photoresistor](/media/ldr.jpg)
+
+_^ a photoresistor_
+
 **Focus:** Semiconductor behavior  
 
 **Date:** Sept 2024 – Feb 2025  
