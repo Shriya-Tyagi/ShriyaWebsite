@@ -1,10 +1,10 @@
 Hi, I'm Shriya Tyagi, an Electrical Engineering undergraduate at the University of Waterloo. This is my portfolio website.
 
-## Education
+# Education
 ### University of Waterloo
 **B.A.Sc. Electrical Engineering (Honours), Candidate** _Sept 2025 — Aug 2030_
 
-## Projects
+# Projects
 
 ### [Timetable Generator](/timetable-generator)
 **Python, OR-Tools, Datetime**
@@ -37,7 +37,7 @@ _Sept 2024 — Feb 2025_
 - Built test circuit and analyzed efficiency, response time, and wavelength sensitivity.
 - Examined dark current, junction capacitance, and noise effects on signal integrity.
 
-## 💼 Experience
+# Experience
 
 ### Journalist / Recruitment Coordinator
 **ThatBenzeneRing, DOTx**
