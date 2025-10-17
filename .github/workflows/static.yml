@@ -24,17 +24,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Optional build step (uncomment if you have one)
-      # - name: Build site
-      #   run: npm run build
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public' # or your build folder, not whole repo
+          path: './public'
 
       - name: Deploy to GitHub Pages
         id: deployment
