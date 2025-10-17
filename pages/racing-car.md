@@ -9,3 +9,5 @@
 Miniature Wi-Fi-controlled car with dual motor driver. Wrote C++ firmware, soldered circuits, and iteratively tested under tight time constraints.
 
 ![car being programmed](/media/car-programming.jpg)
+
+_programming with my laptop_
